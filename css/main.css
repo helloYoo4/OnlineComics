@@ -1,0 +1,67 @@
+body{
+	background: url(/image/bg.gif) no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+    -o-background-size: cover;
+	display: inline-block;
+	margin:auto;
+		height: 100%;
+		width: 100%;
+}
+
+.content{
+
+	color: white;
+	float:left ;
+	margin: auto ;	
+	margin-top: 28px;
+	font-size: 16px;
+	font-family:Arial, Tahoma , sans-serif ;
+}
+
+.content p{
+	font-family:Arial, Tahoma , sans-serif ;
+		text-align: justify;
+			background: black;			
+				padding: 10px;
+				margin: 0;
+}
+
+.kat{
+	background: Crimson;
+	color: white;
+	font-family:Arial, Tahoma , sans-serif ;
+	text-align: justify;
+	float:left ;
+	font-size: 16px;
+	margin: auto 25px;
+	margin-top: 25px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	border: solid 2px black;
+	border-top-left-radius:8px;
+	border-top-right-radius:8px;
+	border-bottom-right-radius:8px ;
+	border-bottom-left-radius: 8px;
+}
+
+.kat table h2{
+	margin: 15px;
+}
+
+.kat table a{
+	text-decoration: none;
+	color: white;
+	margin-left:13px;
+	line-height: 35px;
+	font-weight: bold;
+}
+
+.contact{
+	background: grey;
+	color: white;
+	margin: auto;
+}
+
