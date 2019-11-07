@@ -2,6 +2,7 @@
 .top-menu {
   position: relative;
   background: rgba(34,34,34,.7);
+  margin-top: 150px;
 }
 .menu-main {
   list-style: none;

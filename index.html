@@ -2,86 +2,115 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="css/main.css">
-		<link rel="stylesheet" type="text/css" href="css/menu.css">
-			<link rel="stylesheet" type="text/css" href="css/slider.css">
+	<link rel="stylesheet" type="text/css" href="css/menu.css">
+	<link rel="stylesheet" type="text/css" href="css/slider.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700&subset=latin-ext" rel="stylesheet">
 	<title>Online-Comics</title>
 </head>
 <body>
+
+	<div class="reg">
+		<h3>
+			<a href="#">Login</a>
+			<a href="#">Register</a>
+		</h3>
+	</div>
+
 <nav class="top-menu">
   <ul class="menu-main">
     <li class="left-item"><a href="index.html">Главная</a></li>
     <li class="left-item"><a href="#">Заказать</a></li>
     <li class="left-item"><a href="#">Каталог</a></li>
-    <li class="left-item"><a href="#">Профиль</a></li>
     <li class="right-item"><a href="html/contacts.html">Контакты</a></li>
-    <li class="right-item"><a href="#">Вход</a></li>
-    <li class="right-item"><a href="#">Регистрация</a></li>
+    <li class="right-item"><a href="#">Профиль</a></li>
     <li class="right-item"><a href="#">Поиск</a></li>
 </ul>
-  <a class="navbar-logo" href=""><img src="https://html5book.ru/wp-content/uploads/2017/04/lily-logo.png"></a> </nav>
+<a class="navbar-logo" href=""><img src="https://cdn1.itcentralstation.com/variants/7ZnLZEt1rvPoDQCx2qg36w5Q/4f4dbd56dd87619452f6d0957052793391ab01c31d465717f065173ef2c5dfd9"></a> </nav>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src = "js/slider.js"></script>
 
+<div class = "slider">
+	<h2>ПОПУЛЯРНОЕ НА САЙТЕ</h2>
+<div class="container-fluid">
 
-<div class = "kat">
-	<table>
-	<tr>
-			<td>
-			<h2>Категория</h2>
-			</td>
-	</tr>
-	<tr>
-			<td>
-			<a href="#">1 категория</a>
-			</td>
-	</tr>
-	<tr>
-			<td>
-			<a href="#">2 категория</a>
-			</td>
-	</tr>
-	<tr>
-			<td>
-			<a href="#">3 категория</a>
-			</td>
-	</tr>	
-	<tr>
-			<td>
-			<a href="#">4 категория</a>
-			</td>
-	</tr>	
-	<tr>
-			<td>
-			<a href="#">5 категория</a>
-			</td>
-	</tr>	
-	</table>
+  <div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-12">
+      <div class="carousel carousel-showmanymoveone slide" id="itemslider">
+        <div class="carousel-inner">
+
+          <div class="item active">
+            <div class="col-xs-12 col-sm-6 col-md-2">
+              <a href="#"><img src="image/Avengers.jpg" class="img-responsive center-block"></a>
+              <h4 class="text-center">Avengers end times</h4>
+              <h5 class="text-center">1250p</h5>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="col-xs-12 col-sm-6 col-md-2">
+              <a href="#"><img src="image/Hulk.jpg" class="img-responsive center-block"></a>
+              <h4 class="text-center">Hulk</h4>
+              <h5 class="text-center">550p</h5>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="col-xs-12 col-sm-6 col-md-2">
+              <a href="#"><img src="image/Batman.jpg" class="img-responsive center-block"></a>
+              <h4 class="text-center">Venom</h4>
+              <h5 class="text-center">990p</h5>
+            </div>
+          </div>
+            <div class="item">
+            <div class="col-xs-12 col-sm-6 col-md-2">
+              <a href="#"><img src="image/Dal.jpg" class="img-responsive center-block"></a>
+              <h4 class="text-center">DAL</h4>
+              <h5 class="text-center">2990p</h5>
+            </div>
+          </div>
+            <div class="item">
+            <div class="col-xs-12 col-sm-6 col-md-2">
+              <a href="#"><img src="image/OPM.jpg" class="img-responsive center-block"></a>
+              <h4 class="text-center">OPM</h4>
+              <h5 class="text-center">1990p</h5>
+            </div>
+          </div>
+          <div class="item">
+            <div class="col-xs-12 col-sm-6 col-md-2">
+              <a href="#"><img src="image/Azur Lane.jpg" class="img-responsive center-block"></a>
+              <h4 class="text-center">Azur Lane</h4>
+              <h5 class="text-center">1490p</h5>
+            </div>
+          </div>
+        </div>
+       
+               
+        <div id="slider-control">
+        <a class="left carousel-control" href="#itemslider" data-slide="prev"><img src="https://cdn0.iconfinder.com/data/icons/website-kit-2/512/icon_402-512.png" alt="Left" class="img-responsive"></a>
+        <a class="right carousel-control" href="#itemslider" data-slide="next"><img src="http://pixsector.com/cache/81183b13/avcc910c4ee5888b858fe.png" alt="Right" class="img-responsive"></a>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
 </div>
 
+<ol class="kategoriya">
+  <li><a href="#">Манга</a></li>
+  <li><a href="#">Традиционное</a></li>
+  <li><a href="#">#</a></li>
+  <li><a href="#">#</a></li>
+  <li><a href="#">#</a></li>
+</ol>
 
-<div class = "content">
-	<h1>Онлайн комиксы</h1>
-<ul><li>Здесь будет слайдер новых комиксов</li></ul>
-	<p>Контент##################################################################################################################</p>
-	<p>########################################################################################################################</p>
-	<p>########################################################################################################################</p>
-	<p>########################################################################################################################</p>
-	<p>########################################################################################################################</p>
-	<p>########################################################################################################################</p>
-	<p>########################################################################################################################</p>
-	<p>########################################################################################################################</p>
-	<p>########################################################################################################################</p>
-	<p>########################################################################################################################</p>
-	<p>########################################################################################################################</p>
-	<p>########################################################################################################################</p>
-	<p>########################################################################################################################</p>
-	<p>########################################################################################################################</p>
-	<p>########################################################################################################################</p>
-	<p>########################################################################################################################</p>
-	<p>########################################################################################################################</p>
-	<p>########################################################################################################################</p>
-	<p>########################################################################################################################</p>
-	<p>########################################################################################################################</p>
-	<p>########################################################################################################################</p>
-	<p>########################################################################################################################</p>
-</div>
+<footer><p>Группа информационные системы(по отраслям) - ИСсп-117</p>
+<p>Овчинников Е.А.</p>
+<p>Фролов С.А.</p>
+<p>КАКОЙ В ПИЗДУ ЧАПАЕВ? КАКИЕ КОРАБЛИ?</p>
+</footer>
 </body>
 </html>
