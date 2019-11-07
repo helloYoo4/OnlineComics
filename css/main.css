@@ -7,6 +7,7 @@ body{
   width: 100%;
   height: 100%;
   margin: auto;
+  box-sizing: border-box;
 }
 
 .kategoriya {
@@ -15,7 +16,10 @@ body{
   counter-reset: li;
   font-family: tahoma , times new roman , sans-serif;
   width: 15%;
-  color: white; 
+  color: white;
+  margin-top: -55%; 
+    position: sticky;
+  top: 0;
   }
 
 .kategoriya a{  color: white;  
@@ -61,6 +65,7 @@ footer{
   border-bottom-width: 0;
   border-top-width: 3px;
   color: black;
+  margin-top: 60%;
 
 }
 
@@ -75,6 +80,7 @@ footer{
    border-top-left-radius: 30px;
    border-bottom-left-radius: 30px;
    border-bottom-right-radius: 30px;
+   font-family: tahoma , times new roman , sans-serif;
 }
 .reg a{
   padding-right: 30px;
@@ -82,3 +88,16 @@ footer{
   color: white;
   margin: 5px;
 }
+
+main table {
+  margin-left: 17%;
+  margin-top: 1%;
+}
+
+td{
+  width: 10%;
+
+}
+
+
+
