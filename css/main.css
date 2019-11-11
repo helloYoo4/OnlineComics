@@ -8,6 +8,7 @@ body{
   height: 100%;
   margin: auto;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 .kategoriya {
@@ -74,18 +75,20 @@ footer{
    float: right;
    margin-right: 30px;
    margin-top: 50px;
-   border:solid 2px white;
+   border:solid 2px black;
    background: linear-gradient(120deg, rgba(0,0,0,1) 50%, rgba(231,45,45,1) 50%); 
-   border-top-right-radius: 30px;
-   border-top-left-radius: 30px;
-   border-bottom-left-radius: 30px;
-   border-bottom-right-radius: 30px;
+   border-top-right-radius: 15px;
+   border-top-left-radius: 15px;
+   border-bottom-left-radius: 15px;
+   border-bottom-right-radius: 15px;
    font-family: tahoma , times new roman , sans-serif;
+   padding-bottom: 6px;
+   padding-top: -15px;
 }
 .reg a{
   padding-right: 30px;
   padding-left: 30px;
-  color: white;
+  color: snow;
   margin: 5px;
 }
 
